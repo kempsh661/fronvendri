@@ -144,7 +144,7 @@ export function NotificationsBell() {
                           variant="caption"
                           color="text.secondary"
                           component="span"
-                          display="block"
+                          sx={{ display: "block" }}
                         >
                           {item.message}
                         </Typography>

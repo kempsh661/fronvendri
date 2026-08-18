@@ -62,6 +62,7 @@ export const salesMock: Sale[] = [
     total: 285_000,
     paymentMethod: "cash",
     status: "paid",
+    deliveryStatus: "delivered",
     notes: "Venta realizada en el local.",
   },
   {
@@ -78,6 +79,7 @@ export const salesMock: Sale[] = [
     total: 98_000,
     paymentMethod: "nequi",
     status: "paid",
+    deliveryStatus: "delivered",
   },
   {
     id: "3",
@@ -93,6 +95,7 @@ export const salesMock: Sale[] = [
     total: 182_000,
     paymentMethod: "card",
     status: "paid",
+    deliveryStatus: "delivered",
   },
   {
     id: "4",
@@ -108,6 +111,7 @@ export const salesMock: Sale[] = [
     total: 112_000,
     paymentMethod: "transfer",
     status: "pending",
+    deliveryStatus: "pending",
   },
   {
     id: "5",
@@ -126,6 +130,7 @@ export const salesMock: Sale[] = [
     total: 126_000,
     paymentMethod: "cash",
     status: "paid",
+    deliveryStatus: "delivered",
   },
   {
     id: "6",
@@ -141,6 +146,7 @@ export const salesMock: Sale[] = [
     total: 160_000,
     paymentMethod: "card",
     status: "paid",
+    deliveryStatus: "delivered",
   },
   {
     id: "7",
@@ -156,6 +162,7 @@ export const salesMock: Sale[] = [
     total: 75_000,
     paymentMethod: "nequi",
     status: "refunded",
+    deliveryStatus: "pending",
     notes: "Cancelada por el cliente.",
   },
   {
@@ -172,6 +179,7 @@ export const salesMock: Sale[] = [
     total: 150_000,
     paymentMethod: "cash",
     status: "pending",
+    deliveryStatus: "pending",
   },
   {
     id: "9",
@@ -187,6 +195,7 @@ export const salesMock: Sale[] = [
     total: 144_000,
     paymentMethod: "transfer",
     status: "paid",
+    deliveryStatus: "delivered",
   },
   {
     id: "10",
@@ -201,6 +210,7 @@ export const salesMock: Sale[] = [
     total: 54_000,
     paymentMethod: "other",
     status: "paid",
+    deliveryStatus: "delivered",
   },
   {
     id: "11",
@@ -219,6 +229,7 @@ export const salesMock: Sale[] = [
     total: 119_000,
     paymentMethod: "card",
     status: "paid",
+    deliveryStatus: "delivered",
   },
   {
     id: "12",
@@ -234,6 +245,7 @@ export const salesMock: Sale[] = [
     total: 202_000,
     paymentMethod: "nequi",
     status: "paid",
+    deliveryStatus: "delivered",
   },
   {
     id: "13",
@@ -248,6 +260,7 @@ export const salesMock: Sale[] = [
     total: 94_000,
     paymentMethod: "cash",
     status: "pending",
+    deliveryStatus: "pending",
   },
   {
     id: "14",
@@ -263,5 +276,6 @@ export const salesMock: Sale[] = [
     total: 130_000,
     paymentMethod: "card",
     status: "paid",
+    deliveryStatus: "delivered",
   },
 ];
